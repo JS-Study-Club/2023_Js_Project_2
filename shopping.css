@@ -12,20 +12,27 @@ main{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    text-align: center; /* 리스트 가운데 정렬 */
+    padding: 0; /* 기본적인 패딩 제거 */
+    border-bottom: 1px solid #BDBDBD;
+}
+.navbar li{
+    float: left;
+    margin-right: 150px; /* 사이 간격 조절 */
+    margin-left: 10px;
 }
 .navbar a{
     color: black;
-    text-decoration: none;
-    padding: 15px;
+    text-decoration: none; /* 링크에 있는 밑줄 제거 */
+    padding: 10px;
     display: block;
+
     text-align: center;
 }
 .navbar a:hover {
     background-color: whitesmoke;
 }
-.navbar li{
-    float: left;
-}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -34,13 +41,19 @@ main{
     color: black;
 }
 .header{
-    height: 110px;
-    border-bottom: 1px solid #000;
+    height: 100px;
+    border-bottom: 1px solid #BDBDBD;
 }
 .mirim_logo {
+    width: 62px;
+    height: 62px;
+    position: fixed;
     text-align: left;
-    margin: 20px;;
+    margin-left: 20px;
 }
 .header_logo {
     text-align: center;
+    position: relative;
+    margin: 20px;
+    padding-bottom: 20px;
 }
