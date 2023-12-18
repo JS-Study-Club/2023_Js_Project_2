@@ -1,17 +1,20 @@
+.navbar{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #BDBDBD;
+}
 .navbar ul{
     list-style-type: none;
     background-color:white;
-    padding: 0px;
-    margin: 0px;
     overflow: hidden;
     text-align: center; /* 리스트 가운데 정렬 */
-    padding: 0; /* 기본적인 패딩 제거 */
-    border-bottom: 1px solid #BDBDBD;
+    padding: 0;
 }
 .navbar li{
+    margin-top: 3px;
     float: left;
     margin-right: 150px; /* 사이 간격 조절 */
-    margin-left: 18px;
+    display: inline-block;
+    margin-left: 10px;
 }
 .navbar a{
     color: black;
@@ -23,7 +26,6 @@
 .navbar a:hover {
     background-color: whitesmoke;
 }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -32,8 +34,24 @@
     color: black;
 }
 .header{
-    height: 105px;
-    border-bottom: 1px solid #BDBDBD;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header-buttons {
+    display: flex;
+    float: right;
+    margin-top: -20px;
+}
+.header-button {
+    padding: 3px 10px;
+    background-color: white;
+    color: #7A7A7A;
+    border: none;
+    cursor: pointer;
+}
+.header-button:not(:first-child) {
+    border-left: 2px solid #D3D3D3; /* 첫 번째 버튼을 제외한 나머지 버튼에 왼쪽에 1px 회색 선 추가 */
 }
 .mirim_logo {
     width: 62px;
@@ -44,8 +62,7 @@
 }
 .header_logo {
     text-align: center;
-    position: relative;
-    margin: 20px;
+    margin: 5px;
     padding-bottom: 20px;
 }
 .검색_컨테이너{
@@ -55,12 +72,12 @@
     border: 1px solid #8E8E8E;
     width: 200px;
     padding: 8px;
-    margin-top: 2.5px;
+    margin-top: 3px;
 }
 #search_button {
     padding: 3px;
     background-color: white;
     border: 1px solid #8E8E8E;
-    margin-top: 2.5px;
+    margin-top: 3px;
     margin-left: -1px;
 }
