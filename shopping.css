@@ -1,6 +1,13 @@
-.navbar{
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #BDBDBD;
+html, body{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    color: #BDBDBD;
+}
+.navbar {
+    max-width: 1200px; /* 적절한 최대 너비를 설정하세요 */
+    margin: auto; /* 화면 가운데 정렬 */
 }
 .navbar ul{
     list-style-type: none;
@@ -8,20 +15,17 @@
     overflow: hidden;
     text-align: center; /* 리스트 가운데 정렬 */
     padding: 0;
+    display: flex;
 }
 .navbar li{
-    margin-top: 3px;
-    float: left;
-    margin-right: 150px; /* 사이 간격 조절 */
+    margin-right: 100px; /* 사이 간격 조절 */
     display: inline-block;
-    margin-left: 10px;
 }
 .navbar a{
     color: black;
     text-decoration: none; /* 링크에 있는 밑줄 제거 */
     padding: 10px;
     display: block;
-    text-align: center;
 }
 .navbar a:hover {
     background-color: whitesmoke;
@@ -36,12 +40,12 @@
 .header{
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    width: 100%;
 }
 .header-buttons {
-    display: flex;
     float: right;
-    margin-top: -20px;
+    display: flex;
+    margin-right: 5px;
 }
 .header-button {
     padding: 3px 10px;
@@ -62,22 +66,23 @@
 }
 .header_logo {
     text-align: center;
-    margin: 5px;
-    padding-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 150px;
 }
 .검색_컨테이너{
-    display: flex;
+    display: flex; /* 가로로 정렬 */
+    align-items: center; /* 세로로 중앙 정렬 */
 }
 #search {
     border: 1px solid #8E8E8E;
     width: 200px;
     padding: 8px;
-    margin-top: 3px;
+    height: 35px
 }
 #search_button {
-    padding: 3px;
     background-color: white;
     border: 1px solid #8E8E8E;
-    margin-top: 3px;
     margin-left: -1px;
+    height: 35px;
 }
