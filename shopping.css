@@ -11,7 +11,7 @@
 .navbar li{
     float: left;
     margin-right: 150px; /* 사이 간격 조절 */
-    margin-left: 10px;
+    margin-left: 18px;
 }
 .navbar a{
     color: black;
@@ -48,12 +48,19 @@
     margin: 20px;
     padding-bottom: 20px;
 }
+.검색_컨테이너{
+    display: flex;
+}
 #search {
     border: 1px solid #8E8E8E;
     width: 200px;
     padding: 8px;
-    outline: none;
+    margin-top: 2.5px;
 }
 #search_button {
-
+    padding: 3px;
+    background-color: white;
+    border: 1px solid #8E8E8E;
+    margin-top: 2.5px;
+    margin-left: -1px;
 }
