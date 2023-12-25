@@ -86,3 +86,14 @@ hr{
     margin-left: -1px;
     height: 35px;
 }
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+button {
+    float: right;
+    background-color: white;
+    color: #7A7A7A;
+    border: none;
+    cursor: pointer;
+}
