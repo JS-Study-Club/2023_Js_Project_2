@@ -43,22 +43,36 @@
     <br>
     <br>
     <h2>[빙그레] 더위사냥</h2>
-    <button type="button"><img src="img/찜 아이콘.png" alt="찜">찜</button>
-    <button type="button"><img src="img/공유 아이콘.png" alt="공유">공유</button>
+    <div id="button">
+        <button><img src="img/공유 아이콘.png" alt="공유">  공유</button>
+        <button><img src="img/찜 아이콘.png" alt="찜">  찜</button>
+    </div>
+    
 
     <div class="container">
         <img id="더위사냥" src="img/더위사냥.png" alt="더위사냥">
         <div class="text-container">
             <h3>1,200원</h3>
             <h4>영양성분</h4>
-            <h5>열량    125kcal</h5>
-            <h5>탄수화물    25g</h5>
-            <h5>지방    2.5g</h5>
-            <h5>단백질    0.5g</h5>
-            <h5>나트륨    65mgl</h5>
+            <pre>열량                   125kcal
+탄수화물            25g
+지방                   2.5g
+단백질                0.5g
+나트륨                65mgl</pre>
+
+            <label for="number">수량선택</label>
+            <input type="text" id="number" list="num">
+            <datalist id="num">
+                <option>1개</option>
+                <option>2개</option>
+                <option>3개</option>
+                <option>4개</option>
+            </datalist>
+            <br>
+            <p>총 상품금액</p>
         </div>
     </div>
-   
+    
     
 
 </body> 
