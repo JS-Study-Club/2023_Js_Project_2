@@ -86,14 +86,46 @@ hr{
     margin-left: -1px;
     height: 35px;
 }
-h2{
-    font-size: 30px;
-    text-align: center;
-}
 button {
     float: right;
     background-color: white;
     color: #7A7A7A;
     border: none;
     cursor: pointer;
+    display: flex; /* Flexbox를 사용하여 가로로 정렬 */
+    align-items: center; /* 아이템들을 세로 중앙 정렬 */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+#더위사냥 {
+    width: 400px;
+}
+.text-container {
+    margin-left: 20px;
+}
+.text-container h3,
+.text-container h4,
+.text-container h5 {
+    margin: 0;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    color: #3BA131;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 14px;
 }
