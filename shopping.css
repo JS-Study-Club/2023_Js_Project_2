@@ -60,7 +60,7 @@ hr{
 .mirim_logo {
     width: 62px;
     height: 62px;
-    position: fixed;
+    position: absolute;
     text-align: left;
     margin-left: 20px;
 }
