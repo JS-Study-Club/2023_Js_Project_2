@@ -1,0 +1,28 @@
+/* id 값의 answer를 포함하고 있는 input만을 전부 선택이 가능 */
+input[id *= "answer"] {
+    display: none;
+}
+/* + 인접 요소 선택자 */
+input[id*= "answer"] + label {
+    display: block;
+    padding: 20px;
+    border: 1px solid #232188;
+    border-bottom: 0;
+    color: #fff;
+    font-weight: 900;
+    background: #3634a5;
+    cursor: pointer;
+    position: relative;
+}
+input[id*="answer"] + label + div {
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background: #edf8ff;
+    font-size: 11px;
+}
+input[id*= "answer"] + label + div p {
+    display: inline-block;
+    padding: 20px;
+}
+input[id*="answer"]:hover + label + div {max-height: 100px;}

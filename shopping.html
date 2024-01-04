@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>미림 매점 쇼핑몰</title>
+    <link rel="stylesheet" href="shopping.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="header-buttons">
+            <button class="header-button">로그인</button>
+            <button class="header-button">회원가입</button>
+            <button class="header-button">주문조회</button>
+        </div>
+        <div class="mirim_logo">
+            <img src="img/미림마크.png" alt="mirim_logo">
+        </div>
+        <div class="header_logo">
+            <img src="img/세부창로고.png" alt="header_logo">
+        </div>
+        <hr>
+        <nav class="navbar"> 
+            <ul>
+                <li><a href=""><img src="img/햄버거바.png" alt=""></a></li>
+                <li><a href="">전체 카테고리</a></li>
+                <li><a href="">추천상품</a></li>
+                <li><a href="">마이페이지</a></li>
+                <li><a href="">장바구니</a></li>
+                <div class="검색_컨테이너">
+                    <input type="search" id="search">
+                    <button type="submit" id="search_button"><img src="img/돋보기.png" alt="돋보기 버튼"></button>
+                </div>
+            </ul>   
+        </nav>
+        <hr>
+    </header>
     
+    <h2>[빙그레] 더위사냥</h2>
+    <button class="button"><img src="img/공유.png" alt=""></button>
+    <button class="button"><img src="img/찜.png" alt=""></button>
+    <div class="container">
+        <img id="더위사냥" src="img/더위사냥.png" alt="더위사냥">
+        <div class="text-container">
+            <p id="가격">1,200원</p>
+            <br>
+            <p id="성분">영양성분</p>
+            <br>
+            <p id="영양">열량</p>
+            <p id="영양">탄수화물</p>
+            <p id="영양">지방</p>
+            <p id="영양">단백질</p>
+            <p id="영양">나트륨</p>
+
+            <label for="number">수량선택</label>
+            <input type="text" id="number" list="num">
+            <datalist id="num">
+                <option>1개</option>
+                <option>2개</option>
+                <option>3개</option>
+                <option>4개</option>
+            </datalist>
+            <br>
+            <p>총 상품금액</p>
+        </div>
+    </div>
+    
+    
+
+</body> 
 </body>
 </html>
