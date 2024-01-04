@@ -9,35 +9,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="jQuery 3.7.1.js"></script>
+    <script src="shopping.js"></script>
+
 </head>
 <body>
     <header class="header">
         <div class="header-buttons">
             <button class="header-button">로그인</button>
             <button class="header-button">회원가입</button>
-            <button class="header-button">주문조회</button>
+            <button class="header-button" id="Order_inquiry">주문조회</button>
         </div>
         <div class="mirim_logo">
             <img src="img/미림마크.png" alt="mirim_logo">
         </div>
         <div class="header_logo">
-            <img src="img/세부창로고.png" alt="header_logo">
+            <img src="img/메인창로고.png" alt="header_logo">
         </div>
         <hr>
+        
         <nav class="navbar"> 
-            <ul>
+            <ul class="nav_container">
                 <li><a href=""><img src="img/햄버거바.png" alt=""></a></li>
-                <li><a href="">전체 카테고리</a></li>
-                <li><a href="">추천상품</a></li>
+                <li class="nav_select"><a href="">전체 카테고리</a>
+                    <ul class="down_nav">
+                        <li>아이스크림</li>
+                        <li>음료수</li>
+                        <li>생필품</li>
+                    </ul>
+                </li>
+                <li><a href="">추천상품</a>
+                    <ul class="down_nav">
+                        <li>과자</li>
+                        <li>젤리</li>
+                    </ul>
+                </li>
                 <li><a href="">마이페이지</a></li>
                 <li><a href="">장바구니</a></li>
+                
                 <div class="검색_컨테이너">
                     <input type="search" id="search">
                     <button type="submit" id="search_button"><img src="img/돋보기.png" alt="돋보기 버튼"></button>
                 </div>
             </ul>   
         </nav>
-        <hr>
+        <!-- <hr> -->
+        
     </header>
     
     <h2>[빙그레] 더위사냥</h2>
@@ -72,5 +89,4 @@
     
 
 </body> 
-</body>
 </html>
