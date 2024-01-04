@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>미림 매점 쇼핑몰</title>
+    <link rel="stylesheet" href="shopping.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script src="jQuery 3.7.1.js"></script>
+    <script src="shopping.js"></script>
+
 </head>
 <body>
+    <header class="header">
+        <div class="header-buttons">
+            <button class="header-button">로그인</button>
+            <button class="header-button">회원가입</button>
+            <button class="header-button" id="Order_inquiry">주문조회</button>
+        </div>
+        <div class="mirim_logo">
+            <img src="img/미림마크.png" alt="mirim_logo">
+        </div>
+        <div class="header_logo">
+            <img src="img/메인창로고.png" alt="header_logo">
+        </div>
+        <hr>
+        
+        <nav class="navbar"> 
+            <ul class="nav_container">
+                <li><a href=""><img src="img/햄버거바.png" alt=""></a></li>
+                <li class="nav_select"><a href="">전체 카테고리</a>
+                    <ul class="down_nav">
+                        <li>아이스크림</li>
+                        <li>음료수</li>
+                        <li>생필품</li>
+                    </ul>
+                </li>
+                <li><a href="">추천상품</a>
+                    <ul class="down_nav">
+                        <li>과자</li>
+                        <li>젤리</li>
+                    </ul>
+                </li>
+                <li><a href="">마이페이지</a></li>
+                <li><a href="">장바구니</a></li>
+                
+                <div class="검색_컨테이너">
+                    <input type="search" id="search">
+                    <button type="submit" id="search_button"><img src="img/돋보기.png" alt="돋보기 버튼"></button>
+                </div>
+            </ul>   
+        </nav>
+        <!-- <hr> -->
+    </header>
+    <section class="section">
+            <input type="radio" name="slide" id="slide01" checked>
+            <input type="radio" name="slide" id="slide02">
+            <input type="radio" name="slide" id="slide03">
+            
+            <div class="slidewrap">
+                <ul class ="slidelist">
+                    <li>
+                        <a>
+                            
+                            <img src="img/slide01.png" alt="" class="slide_img">
+                           
+                        </a>
+                    </li>
+                    <li>
+                         <a>
+                            
+                            <img src="img/slide02.png" alt="" class="slide_img">
+                            
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a>
+                            
+                            <img src="img/slide03.png" alt="" class="slide_img">
+                            
+                        </a>
+                    </li>
+                    <div class="slide-control">
+                        <div class="control01">
+                            <label for="slide03" class="left"></label>
+                            <label for="slide02" class="right"></label>
+                        </div>
+                        <div class="control02">
+                            <label for="slide01" class="left"></label>
+                            <label for="slide03" class="right"></label>
+                        </div>
+                        <div class="control03">
+                            <label for="slide02" class="left"></label>
+                            <label for="slide01" class="right"></label>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+    </section>
     
+    <section class="section2">
+        <div class="text">
+            <p class="header_text">어서옵쇼 미매쇼</p>
+            <p class="down_text">미매쇼에서 추천하는 이달의 상품을 만나보세요!</p>
+        </div>
+    </section>
+   
+   
 </body>
 </html>
