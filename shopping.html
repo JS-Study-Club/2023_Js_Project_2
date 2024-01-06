@@ -65,21 +65,24 @@
         <div class="text-container">
             <p id="가격">1,200원</p>
             <br>
-            <p id="성분">영양성분</p>
+            <p id="성분">영양성분</p>   
             <br>
-            <p id="영양">열량</p>
-            <p id="영양">탄수화물</p>
-            <p id="영양">지방</p>
-            <p id="영양">단백질</p>
-            <p id="영양">나트륨</p>
+            <p id="영양">열량<span class="num">125kcal</span></p>
+            <p id="영양">탄수화물<span class="num">25g</span></p>
+            <p id="영양">지방<span class="num">2.5g</span></p>
+            <p id="영양">단백질<span class="num">0.5g</span></p>
+            <p id="영양">나트륨<span class="num">65mg</span></p>
 
-            <label for="number">수량선택</label>
-            <input type="text" id="number" list="num">
+            
+            <input type="text" id="count" list="num">
             <datalist id="num">
-                <option>1개</option>
-                <option>2개</option>
-                <option>3개</option>
-                <option>4개</option>
+                <label for="count">수량선택</label>
+                <select name="" id="count">
+                    <option value="one">1개</option>
+                    <option value="2개"></option>
+                    <option value="3개"></option>
+                    <option value="4개"></option>
+                </select>
             </datalist>
             <br>
             <p>총 상품금액</p>
