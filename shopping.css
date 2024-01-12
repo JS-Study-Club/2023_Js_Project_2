@@ -162,21 +162,16 @@ nav {
 .container {
     display: flex;
     align-items: center;
+    margin-left: 200px;
 }
 #더위사냥 {
     width: 400px;
-
     margin-right: 200px;
 }
 h2{
     font-size: 30px;
     text-align: center;
     margin: 60px;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    margin-left: 200px;
 }
 #가격{
     font-weight: bold;
@@ -204,6 +199,7 @@ h2{
     border: 0.7px solid #7A7A7A;
     width: 290px;
     height: 47px;
+    display: flexbox;
 }
 #buy{
     background-color: #3BA131;
