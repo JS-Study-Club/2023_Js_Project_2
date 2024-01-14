@@ -190,8 +190,28 @@ h2{
     font-size: 14px;
     margin-bottom: 30px;
 }
-.num{
-    margin-left: 40px;
+.kcal{
+
+}
+.tan{
+
+}
+.ji{
+
+}
+.dan{
+
+}
+.na{
+    
+}
+.num-select{
+    font-size: medium 14px;
+}
+#num-select{
+    width: 592px;
+    height: 36px;
+    font-size: medium;
 }
 #bag{
     background-color: #fff;
@@ -208,8 +228,4 @@ h2{
     border: none;
     width: 290px;
     height: 47px;
-}
-#count {
-    width: 592px;
-    height: 36px;
 }
