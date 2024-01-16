@@ -124,6 +124,7 @@ nav {
     position: absolute;
     text-align: left;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .header_logo {
     text-align: center;
@@ -151,7 +152,7 @@ nav {
 /* 섹션 값 안에 있는 아이디가 slide를 가지고 있는 
 슬라이드를 선택해서
 화면에서 가리는 스타일 적용  */
-.section {
+.section > div{
     overflow: hidden;
 }
 
@@ -252,3 +253,88 @@ nav {
     padding-bottom: 40px;
     border-bottom: #BDBDBD solid;
 }
+
+.menu {
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.menu > img {
+    height: 20px;
+    padding-top: 110px;
+    padding-left: 10px;
+    
+}
+
+.menu_text {
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.menu_img {
+    /* X축을 기준으로 지정한 영역에 요소들이 벗어났을 때 속성을 설정
+    벗어난다면 스크롤이 나오게끔 하는 코드 */
+    overflow-x: auto;
+    margin-bottom: 20px;
+    /* 가로 정렬 */
+    display: flex;
+}
+
+.menu_img > img {
+    height: 100; 
+}
+
+.menu_img {
+    display: flex;
+}
+
+
+#bottom {
+    margin-bottom: 200px;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #D3D3D3;
+    display: flex;
+}
+
+
+#Details {
+    padding-right: 200px;
+    
+}
+
+.title_text {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+}
+
+.text_container {
+    /* padding-right: 200px; */
+    margin-left: 200px;
+    /* margin-top: 60px; */
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #3BA131;
+
+}
+
+.goods {
+    padding-left: 50px;
+    text-align: center;
+}
+
+
+.price_color {
+    color: #E74B4B;
+    padding-left: 35px;
+}
+

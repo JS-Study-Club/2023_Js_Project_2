@@ -1,5 +1,5 @@
 $(function(){
-	var $firstMenu = $(".nav_select"),
+	var $firstMenu = $('.nav_select'),
 			$header = $('header');
 	
 	$firstMenu.mouseenter(function(){
