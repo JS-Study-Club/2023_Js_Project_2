@@ -191,19 +191,19 @@ h2{
     margin-bottom: 30px;
 }
 .kcal{
-    
+    margin-left: 80px;
 }
 .tan{
-
+    margin-left: 55px;
 }
 .ji{
-
+    margin-left: 80px;
 }
 .dan{
-
+    margin-left: 68px;
 }
 .na{
-    
+    margin-left: 68px;
 }
 .num-select{
     font-size: medium 14px;
@@ -228,4 +228,7 @@ h2{
     border: none;
     width: 290px;
     height: 47px;
+}
+.total{
+    
 }
