@@ -190,6 +190,11 @@ h2{
     font-size: 14px;
     margin-bottom: 30px;
 }
+.more{
+    background: none;
+    border: none;
+    position: ;
+}
 .kcal{
     margin-left: 80px;
 }
@@ -230,5 +235,5 @@ h2{
     height: 47px;
 }
 .total{
-    
+
 }
