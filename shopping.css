@@ -298,29 +298,28 @@ nav {
 .footer {
     width: 100%;
     height: 350px;
-    background-color: #D3D3D3;
+    background-color: #EEEEEE;
     display: flex;
-}
-
-
-#Details {
-    padding-right: 200px;
-    
 }
 
 .title_text {
     font-size: 20px;
     margin-top: 80px;
     margin-left: 200px;
-    padding-right: 200px;
+    padding-right: 230px;
     padding-bottom: 60px;
+    padding-left: 10px;
 }
 
 .text_container {
     /* padding-right: 200px; */
-    margin-left: 200px;
+    margin-left: 210px;
     /* margin-top: 60px; */
     margin-bottom: 15px;
+}
+
+.follow {
+    padding-left: 30px;
 }
 
 .price {
