@@ -190,10 +190,17 @@ h2{
     font-size: 14px;
     margin-bottom: 30px;
 }
-.more{
+.more1{
     background: none;
     border: none;
-    vertical-align: middle;
+}
+.more2{
+    background: none;
+    border: none;
+}
+.more3{
+    background: none;
+    border: none;
 }
 .kcal{
     margin-left: 80px;
