@@ -241,6 +241,10 @@ h2{
     width: 290px;
     height: 47px;
 }
-.total{
-
+.item{
+    background-color: white;
+    color: #000;
+    border: #969696;
+    width: 169px;
+    height: 43px;
 }
