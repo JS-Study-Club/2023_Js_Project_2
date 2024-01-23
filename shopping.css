@@ -241,10 +241,17 @@ h2{
     width: 290px;
     height: 47px;
 }
-.item{
+#item{
     background-color: white;
     color: #000;
-    border: #969696;
+    border: solid #000 0.5px;
     width: 169px;
     height: 43px;
+    margin-bottom: -0.5px;
+}
+#item:focus{
+    border: #7A7A7A;
+}
+#sangpum{
+    border: solid #000 0.1px;
 }
