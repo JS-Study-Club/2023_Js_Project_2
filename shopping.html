@@ -66,7 +66,9 @@
             <p id="가격">1,200원</p>
             <br>
             <br>
-            <p id="성분">영양성분<button class="more1"><img src="img/자세히.png" alt="자세히"></button></p>
+            <div class="text-container">
+                <p id="성분">영양성분<button class="more1"><img src="img/자세히.png" alt="자세히"></button></p>
+            </div>
             <br>
             <p id="영양">열량<span class="kcal">125kcal</span></p>
             <p id="영양">탄수화물<span class="tan">25g</span><button class="more2"><img src="img/자세히.png" alt="자세히"></button></p>
@@ -74,8 +76,7 @@
             <p id="영양">단백질<span class="dan">0.5g</span></p>
             <p id="영양">나트륨<span class="na">65mg</span></p>
             
-            <label for="num-select">상품옵션</label>
-            <br>
+            <p for="num-select">상품옵션</p>
             <select name="num" id="num-select">
             <option value="">-수량선택-</option>
             <option value="one">1개</option>
@@ -83,9 +84,9 @@
             <option value="three">3개</option>
             <option value="four">4개</option>
             </select>
-
-            <br>
-            <p class="total">총 상품금액</p>
+            <div class="price">
+                <p class="total">총 상품금액<span id="price">1,200<span class="won">원</span></span></p>
+            </div>
             <button id="bag">장바구니</button>
             <button id="buy">구매하기</button> 
         </div>

@@ -190,6 +190,11 @@ h2{
     font-size: 14px;
     margin-bottom: 30px;
 }
+.text_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .more1{
     background: none;
     border: none;
@@ -224,6 +229,27 @@ h2{
     width: 592px;
     height: 36px;
     font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.price{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 15px;
+}
+.total{
+    color: #575757;
+    font-size: 18px;
+}
+#price{
+    margin-left: 10px;
+    color: #3BA131;
+    font-size: 32px;
+    font-weight: medium;
+}
+.won{
+    color: #3BA131;
+    font-size: 24px;
 }
 #bag{
     background-color: #fff;
@@ -254,6 +280,10 @@ h2{
 }
 #sangpum{
     border: solid #000 0.1px;
+}
+.about{
+    display: flex;
+    justify-content: center;
 }
 
 /*footer css*/
