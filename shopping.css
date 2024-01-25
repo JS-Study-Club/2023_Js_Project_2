@@ -267,23 +267,39 @@ h2{
     width: 290px;
     height: 47px;
 }
+.about{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
 #item{
     background-color: white;
     color: #000;
     border: solid #000 0.5px;
     width: 169px;
     height: 43px;
-    margin-bottom: -0.5px;
+    margin-left: -1px;
+    margin-bottom: -0.1px;
 }
 #item:focus{
-    border: #7A7A7A;
+    border: solid #7A7A7A 0.5px;
 }
 #sangpum{
-    border: solid #000 0.1px;
+    border: solid #000 0.5px;
+    margin-bottom: 45px;
 }
-.about{
-    display: flex;
-    justify-content: center;
+#search2{
+    width: 249px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #969696;
+}
+#search_button2{
+    width: 58px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid #969696;
 }
 
 /*footer css*/
