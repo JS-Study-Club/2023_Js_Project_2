@@ -3,7 +3,7 @@ $(function(){
           $header = $('header');
     
     $firstMenu.mouseenter(function(){
-       $header.stop().animate({height:'300px'});
+       $header.stop().animate({height:'310px'});
     })
     .mouseleave(function(){
        $header.stop().animate({height:'140px'});
