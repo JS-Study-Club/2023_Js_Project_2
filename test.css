@@ -84,3 +84,8 @@ input[id*="answer"]:hover + label + div {max-height: 100px;}
     /* margin-top: 60px; */
     margin-bottom: 15px;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+  }
