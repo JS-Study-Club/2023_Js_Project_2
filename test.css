@@ -30,19 +30,6 @@ input[id*="answer"]:hover + label + div {max-height: 100px;}
 .kcal{
     margin-right: 100px;
 }
-.tan{
-
-}
-.ji{
-
-}
-.dan{
-
-}
-.na{
-    
-}
-
 .about{
     align-items: center;
 }
