@@ -144,20 +144,14 @@ nav {
 #search_button {
     background-color: white;
     border: 1px solid #8E8E8E;
-    margin-left: -1px;
+    padding-left: -1px;
     height: 35px;
 }
-.button {
-    margin-right: 5px;
-    float: right;
-    border: none;
-    cursor: pointer;
-    display: flex; /* Flexbox를 사용하여 가로로 정렬 */
-    align-items: center; /* 아이템들을 세로 중앙 정렬 */
-    background-color: #fff;
+.button-container{
 }
-.button:not(:last-child) {
-    margin-right: 50px;
+.button {
+    cursor: pointer;
+    background-color: #fff;
 }
 .container {
     display: flex;
@@ -197,6 +191,7 @@ h2{
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     padding-left: 478px;
+    cursor: pointer;
 }
 #more2{
     background: none;
@@ -205,6 +200,7 @@ h2{
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     padding-left: 543px;
+    cursor: pointer;
 }
 .kcal{
     padding-left: 80px;
