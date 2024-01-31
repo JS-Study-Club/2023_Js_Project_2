@@ -81,12 +81,12 @@
             <p id="영양">나트륨<span class="na">65mg</span></p>
             
             <p for="num-select">상품옵션</p>
-            <select name="num" id="num-select">
+            <select id="quantity" onchange="calculateTotal()"> 
             <option value="">-수량선택-</option>
-            <option value="one">1개</option>
-            <option value="two">2개</option>
-            <option value="three">3개</option>
-            <option value="four">4개</option>
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4r">4</option>
             </select>
             <div class="price">
                 <p class="total">총 상품금액<span id="price">1,200<span class="won">원</span></span></p>

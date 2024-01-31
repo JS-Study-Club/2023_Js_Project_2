@@ -147,8 +147,7 @@ nav {
     padding-left: -1px;
     height: 35px;
 }
-.button-container{
-}
+
 .button {
     cursor: pointer;
     background-color: #fff;
@@ -220,7 +219,7 @@ h2{
 .num-select{
     font-size: medium 14px;
 }
-#num-select{
+#quantity{
     width: 592px;
     height: 36px;
     font-size: medium;
@@ -235,6 +234,7 @@ h2{
 .total{
     color: #575757;
     font-size: 18px;
+    padding-right: 140px;
 }
 #price{
     margin-left: 10px;
