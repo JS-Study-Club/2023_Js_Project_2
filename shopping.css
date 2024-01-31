@@ -231,10 +231,9 @@ h2{
     justify-content: right;
     margin-bottom: 15px;
 }
-.total{
+#total{
     color: #575757;
     font-size: 18px;
-    padding-right: 140px;
 }
 #price{
     margin-left: 10px;
@@ -245,6 +244,7 @@ h2{
 .won{
     color: #3BA131;
     font-size: 24px;
+    padding-right: 140px;
 }
 #bag{
     background-color: #fff;
@@ -318,6 +318,16 @@ input::placeholder{
     width: 1236px;
     height: 216px;
     border-radius: 5px;
+}
+input{
+    padding-left: 10px;
+    color: #969696;
+}
+textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #535353;
 }
 #comment_button{
     width: 116px;

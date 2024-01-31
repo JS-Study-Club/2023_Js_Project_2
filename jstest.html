@@ -4,6 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>상품 가격 계산</title>
+
+  <!-- 추가된 CSS 코드 -->
+  <style>
+    /* "총 상품 금액"의 글자 크기를 18px로 변경 */
+    #total {
+      font-size: 18px;
+    }
+
+    /* "총 상품 금액"의 글자 색을 빨간색으로 변경 */
+    #total {
+      color: red;
+    }
+
+    /* 추가된 스타일 */
+    #price {
+      font-size: 18px;
+      color: blue; /* 예시로 파란색으로 변경 */
+    }
+
+    .won {
+      color: green; /* 예시로 초록색으로 변경 */
+    }
+  </style>
 </head>
 <body>
 
@@ -18,7 +41,7 @@
 
   <p>상품 가격: 1200 원</p>
 
-  <p>총 상품 금액: <span id="total">1200</span> 원</p>
+  <p class="total">총 상품금액<span id="price">1200</span><span class="won">원</span></p>
 
   <script>
     function calculateTotal() {
@@ -32,7 +55,7 @@
       var total = quantity * fixedPrice;
 
       // 결과 업데이트
-      document.getElementById('total').innerText = total;
+      document.getElementById('price').innerText = total;
     }
   </script>
 
