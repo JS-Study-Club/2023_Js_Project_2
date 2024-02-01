@@ -147,10 +147,16 @@ nav {
     padding-left: -1px;
     height: 35px;
 }
-
+.button-container{
+    float: right;
+    display: flex;
+    margin-right: 120px;
+}
 .button {
     cursor: pointer;
     background-color: #fff;
+    border: none;
+    margin-right: 20px;
 }
 .container {
     display: flex;
@@ -244,7 +250,6 @@ h2{
 .won{
     color: #3BA131;
     font-size: 24px;
-    padding-right: 140px;
 }
 #bag{
     background-color: #fff;
