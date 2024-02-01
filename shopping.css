@@ -147,10 +147,16 @@ nav {
     padding-left: -1px;
     height: 35px;
 }
-
+.button-container{
+    float: right;
+    display: flex;
+    margin-right: 120px;
+}
 .button {
     cursor: pointer;
     background-color: #fff;
+    border: none;
+    margin-right: 20px;
 }
 .container {
     display: flex;
@@ -200,6 +206,7 @@ h2{
     font-size: 12px;
     padding-left: 543px;
     cursor: pointer;
+    
 }
 .kcal{
     padding-left: 80px;
@@ -244,7 +251,6 @@ h2{
 .won{
     color: #3BA131;
     font-size: 24px;
-    padding-right: 140px;
 }
 #bag{
     background-color: #fff;
@@ -275,73 +281,14 @@ h2{
     height: 43px;
     margin-left: -1px;
     margin-bottom: -0.1px;
+    cursor: pointer;
 }
-#item:focus{
+#reviewForm, #otherProducts, #inquiryForm {
+}
+#reviewForm:focus, #otherProducts:focus, #inquiryForm:focus {
     border: solid #7A7A7A 0.5px;
 }
-#sangpum{
-    border: solid #000 0.5px;
-    margin-bottom: 45px;
-    width: 1236px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.comment{
-    display: flex;
-    justify-content: right;
-    margin-right: 135px;
-    margin-bottom: 13px;
-}
-#search2{
-    width: 249px;
-    height: 30px;
-    border-radius: 2px;
-    border: 1px solid #969696;
-    margin-right: 10px;
-}
-input::placeholder{
-    font-size: 12px;
-    color: #969696;
-}
-#search_button2{
-    width: 58px;
-    height: 30px;
-    border-radius: 2px;
-    background-color: white;
-    border: 1px solid #969696;
-}
-.textarea{
-    display: flex;
-    justify-content: center;
-}
-#comment{
-    width: 1236px;
-    height: 216px;
-    border-radius: 5px;
-}
-input{
-    padding-left: 10px;
-    color: #969696;
-}
-textarea{
-    padding-left: 10px;
-    padding-top: 10px;
-    font-family: 'Inter', sans-serif;
-    color: #535353;
-}
-#comment_button{
-    width: 116px;
-    height: 36px;
-    border-radius: 5px;
-    background-color: #525252;
-    color: #FFFFFF;
-    font-size: 14px;
-    margin-top: 10px;
-    margin-left: 1265px;
-}
-.comment_button{
-    margin-bottom: 200px;
-}
+
 /*footer css*/
 .footer {
     width: 100%;
