@@ -95,44 +95,39 @@
             <button id="buy">구매하기</button> 
         </div>
     </div>
-    <div class="about">
-        <button onclick="showReviewFrom()" id="item">상품후기</button>
-        <button onclick="showOtherProducts()" id="item">관련상품</button>
-        <button onclick="showInquiryForm()" id="item">상품문의</button>
-    </div>
-    <hr id="sangpum">
 
-    <!-- 상품 후기 작성 폼 -->
-    <div id="reviewForm">
-        <input type="text" id="search2" placeholder="제목, 내용, 상품명, 상품설명, 작성자">
-        <button type="submit" id="search_button2">검색</button>
-        <textarea id="comment" placeholder="의견을 남겨주세요"></textarea>
-        <button id="comment_button" onclick="submitReview()">상품후기 쓰기</button>
-    </div>
+   <button id="click" onclick="showReviewForm()">상품후기</button>
+   <button id="click" onclick="showOtherProducts()">관련상품</button>
+   <button id="click" onclick="showInquiryForm()">상품문의</button>
 
-    <!-- 다른 상품 목록 -->
-    <div id="otherProducts">
-        <img src="img/감귤.png" alt="생귤탱귤 이미지">
-        <p>[빙그레] 생귤탱귤 감귤</p>
-        <p>1,000원</p>
-        <img src="img/부라보.png" alt="부라보 이미지">
-        <p>[해태] 부라보콘 화이트 바닐라</p>
-        <p>1,800원</p>
-        <img src="img/설레임.png" alt="설레임 이미지">
-        <p>[롯데] 설레임 밀크 쉐이크</p>
-        <p>1,800원</p>
-        <img src="img/아이스쿨.png" alt="아이스쿨 이미지">
-        <p>[서주] 아이스쿨 피치</p>
-        <p>2,000원</p>
-    </div>
+   <div id="reviewForm">
+       <input type="text" id="search2" placeholder="제목, 내용, 상품명, 상품설명, 작성자">
+       <button type="submit" id="search_button2">검색</button>
+       <textarea id="comment" placeholder="의견을 남겨주세요"></textarea>
+       <button id="comment_button" onclick="submitReview()">상품후기 쓰기</button>
+   </div>
 
-    <!-- 상품 문의 작성 폼 -->
-    <div id="inquiryForm">
-        <input type="text" id="search2" placeholder="제목, 내용, 상품명, 상품설명, 작성자">
-        <button type="submit" id="search_button2">검색</button>
-        <textarea placeholder="의견을 남겨주세요"></textarea>
-        <button onclick="submitInquiry()">상품문의 쓰기</button>
-    </div>
+   <div id="otherProducts">
+       <img src="img/감귤.png" alt="생귤탱귤 이미지">
+       <p>[빙그레] 생귤탱귤 감귤</p>
+       <p>1,000원</p>
+       <img src="img/부라보.png" alt="부라보 이미지">
+       <p>[해태] 부라보콘 화이트 바닐라</p>
+       <p>1,800원</p>
+       <img src="img/설레임.png" alt="설레임 이미지">
+       <p>[롯데] 설레임 밀크 쉐이크</p>
+       <p>1,800원</p>
+       <img src="img/아이스쿨.png" alt="아이스쿨 이미지">
+       <p>[서주] 아이스쿨 피치</p>
+       <p>2,000원</p>
+   </div>
+
+   <div id="inquiryForm">
+       <input type="text" id="search2" placeholder="제목, 내용, 상품명, 상품설명, 작성자">
+       <button type="submit" id="search_button2">검색</button>
+       <textarea placeholder="의견을 남겨주세요"></textarea>
+       <button onclick="submitInquiry()">상품문의 쓰기</button>
+   </div>
 
            
 </body> 
