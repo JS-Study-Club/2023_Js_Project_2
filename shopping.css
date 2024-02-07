@@ -284,7 +284,12 @@ h2{
     cursor: pointer;
 }
 
+#click_buttons{
+    margin-top: 80px;
+    text-align: center;
+}
 #click {
+    display :inline-block;
     background-color: white;
     color: #000;
     border: solid #000 0.5px;
@@ -303,21 +308,49 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-#search2{
-    width: 200px;
-    height: 300px;
-}
 #reviewForm{
     display: none;
     margin-top: 20px;
+    text-align: center;
+}
+#search2{
+    width: 249px;
+    height: 30px;
+    border-radius: 2px;
+    border: solid #969696 0.6px;
+    margin-left: 920px;
+    margin-bottom: 13px;
+}
+#search_button2{
+    width: 58px;
+    height: 30px;
+    border-radius: 2px;
+    border: solid #969696 0.6px;
+    background-color: #fff;
+    color: #000;
+}
+#comment{
+    width: 1236px;
+    height: 216px;
+}
+#comment_button{
+    width: 116px;
+    height: 36px;
+    background-color: #525252;
+    color: #fff;
+    border-radius: 5px;
 }
 #otherProducts{
     display: none;
     margin-top: 20px;
+    text-align: center;
+
 } 
 #inquiryForm {
     display: none;
     margin-top: 20px;
+    text-align: center;
+
 }
 #reviewForm:focus, #otherProducts:focus, #inquiryForm:focus {
     border: solid #7A7A7A 0.5px;
