@@ -339,19 +339,46 @@ h2{
     background-color: #525252;
     color: #fff;
     border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 1135px;
+    margin-bottom: 200px;
 }
 #otherProducts{
     display: none;
     margin-top: 20px;
     text-align: center;
+}
 
-} 
 #inquiryForm {
     display: none;
     margin-top: 20px;
     text-align: center;
 
 }
+
+#comment{
+    font-size: 13px;
+    color: #969696;
+    font-family: 'Inter', sans-serif;
+}
+textarea{
+    display: flex;
+    justify-content: center;
+    margin-left: 135px;
+}
+input{
+    padding-left: 10px;
+    color: #969696;
+}
+textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #535353;
+}
+
+
 #reviewForm:focus, #otherProducts:focus, #inquiryForm:focus {
     border: solid #7A7A7A 0.5px;
 }
