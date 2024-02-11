@@ -288,7 +288,7 @@ h2{
     margin-top: 80px;
     text-align: center;
 }
-#click {
+.button {
     display :inline-block;
     background-color: white;
     color: #000;
@@ -297,10 +297,17 @@ h2{
     height: 43px;
     margin-left: -1px;
     margin-bottom: -0.1px;
+    cursor: pointer;
 }
-#click:focus{
-    border: solid #7A7A7A 0.5px;
+.button.active {
+    border-color: #000000; /* 비활성화된 버튼의 선 색 (검은색) */
+    color: #000000; /* 비활성화된 버튼의 폰트 색 (검은색) */
 }
+.button:not(.active) {
+    border-color: #808080; /* 활성화된 버튼의 선 색 (회색) */
+    color: #808080; /* 활성화된 버튼의 폰트 색 (회색) */s
+}
+
 #sangpum{
     border: solid #000 0.5px;
     margin-bottom: 45px;
@@ -354,8 +361,14 @@ h2{
     display: inline-block;
 }
 #product>p{
+    font-size: medium 18px;
     font-family: 'Inter', sans-serif;
-    
+
+}
+#colored{
+    font-size: medium 18px;
+    font-family: 'Inter', sans-serif;
+    color: #3BA131;
 }
 
 #inquiryForm {
