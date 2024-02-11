@@ -27,7 +27,19 @@ $(function(){
    document.getElementById('price').innerText = total;
  }
 
-
+ //한 버튼을 누르면 나머지 두 버튼의 스타일 변경
+ function changeBorderColor(clickedButton) {
+   var buttons = document.querySelectorAll('.button');
+ 
+   // Remove 'active' class from all buttons
+   buttons.forEach(button => {
+     button.classList.remove('active');
+   });
+ 
+   // Add 'active' class to the clicked button
+   clickedButton.classList.add('active');
+ }
+ 
  // 버튼을 클릭하면 해당 기능을 수행하는 함수들
  function showReviewForm() {
    hideAllForms();
