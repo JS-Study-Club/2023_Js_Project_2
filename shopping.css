@@ -288,7 +288,7 @@ h2{
     margin-top: 80px;
     text-align: center;
 }
-.button {
+.click {
     display :inline-block;
     background-color: white;
     color: #000;
@@ -299,11 +299,11 @@ h2{
     margin-bottom: -0.1px;
     cursor: pointer;
 }
-.button.active {
+.click.active {
     border-color: #000000; /* 비활성화된 버튼의 선 색 (검은색) */
     color: #000000; /* 비활성화된 버튼의 폰트 색 (검은색) */
 }
-.button:not(.active) {
+.click:not(.active) {
     border-color: #808080; /* 활성화된 버튼의 선 색 (회색) */
     color: #808080; /* 활성화된 버튼의 폰트 색 (회색) */s
 }
@@ -359,11 +359,12 @@ h2{
 }
 #product{
     display: inline-block;
+    margin: 10px;
 }
 #product>p{
     font-size: medium 18px;
     font-family: 'Inter', sans-serif;
-
+    text-align: left;
 }
 #colored{
     font-size: medium 18px;

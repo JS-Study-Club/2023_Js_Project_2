@@ -29,7 +29,7 @@ $(function(){
 
  //한 버튼을 누르면 나머지 두 버튼의 스타일 변경
  function changeBorderColor(clickedButton) {
-   var buttons = document.querySelectorAll('.button');
+   var buttons = document.querySelectorAll('.click');
  
    // Remove 'active' class from all buttons
    buttons.forEach(button => {
