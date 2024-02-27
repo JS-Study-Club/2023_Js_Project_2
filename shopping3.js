@@ -18,7 +18,7 @@ $(function(){
    var quantity = document.getElementById('quantity').value;
 
    // 고정된 상품 가격
-   var fixedPrice = 1200;
+   var fixedPrice = 1800;
 
    // 총 상품 금액 계산
    var total = quantity * fixedPrice;
