@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품 페이지</title>
+    <style>
+        /* 간단한 스타일링을 위한 CSS */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #reviewForm, #otherProducts, #inquiryForm {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>상품 페이지</h1>
+    
+    <!-- 첫번째 버튼: 상품 후기 작성 폼 표시 -->
+    <button onclick="showReviewForm()">상품후기</button>
+
+    <!-- 두번째 버튼: 다른 상품 목록 표시 -->
+    <button onclick="showOtherProducts()">관련상품</button>
+
+    <!-- 세번째 버튼: 상품 문의 작성 폼 표시 -->
+    <button onclick="showInquiryForm()">상품문의</button>
+
+    <!-- 상품 후기 작성 폼 -->
+    <div id="reviewForm">
+        <input type="text" id="search2" placeholder="제목, 내용, 상품명, 상품설명, 작성자">
+        <button type="submit" id="search_button2">검색</button>
+        <textarea id="comment" placeholder="의견을 남겨주세요"></textarea>
+        <button id="comment_button" onclick="submitReview()">상품후기 쓰기</button>
+    </div>
+
+    <!-- 다른 상품 목록 -->
+    <div id="otherProducts">
+        <img src="img/감귤.png" alt="생귤탱귤 이미지">
+        <p>[빙그레] 생귤탱귤 감귤</p>
+        <p>1,000원</p>
+        <img src="img/부라보.png" alt="부라보 이미지">
+        <p>[해태] 부라보콘 화이트 바닐라</p>
+        <p>1,800원</p>
+        <img src="img/설레임.png" alt="설레임 이미지">
+        <p>[롯데] 설레임 밀크 쉐이크</p>
+        <p>1,800원</p>
+        <img src="img/아이스쿨.png" alt="아이스쿨 이미지">
+        <p>[서주] 아이스쿨 피치</p>
+        <p>2,000원</p>
+    </div>
+
+    <!-- 상품 문의 작성 폼 -->
+    <div id="inquiryForm">
+        <input type="text" id="search2" placeholder="제목, 내용, 상품명, 상품설명, 작성자">
+        <button type="submit" id="search_button2">검색</button>
+        <textarea placeholder="의견을 남겨주세요"></textarea>
+        <button onclick="submitInquiry()">상품문의 쓰기</button>
+    </div>
+
+    <script>
+        // 버튼을 클릭하면 해당 기능을 수행하는 함수들
+        function showReviewForm() {
+            hideAllForms();
+            document.getElementById('reviewForm').style.display = 'block';
+        }
+
+        function showOtherProducts() {
+            hideAllForms();
+            document.getElementById('otherProducts').style.display = 'block';
+        }
+
+        function showInquiryForm() {
+            hideAllForms();
+            document.getElementById('inquiryForm').style.display = 'block';
+        }
+
+        // 모든 폼을 숨기는 함수
+        function hideAllForms() {
+            document.getElementById('reviewForm').style.display = 'none';
+            document.getElementById('otherProducts').style.display = 'none';
+            document.getElementById('inquiryForm').style.display = 'none';
+        }
+
+        // 후기 제출 함수
+        function submitReview() {
+            // 여기에 후기 제출에 관한 로직 추가
+            alert('후기가 제출되었습니다.');
+        }
+
+        // 문의 제출 함수
+        function submitInquiry() {
+            // 여기에 문의 제출에 관한 로직 추가
+            alert('문의가 제출되었습니다.');
+        }
+    </script>
+</body>
+</html>

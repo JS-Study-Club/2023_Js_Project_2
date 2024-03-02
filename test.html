@@ -1,64 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="test.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Border Color Change</title>
+<link rel="stylesheet" href="test.css">
+<script src="test.js"></script>
+
 </head>
 <body>
-    <div class="accordion">
-        <input type="checkbox" id="answer01">
-        <label for="answer01">컨텐츠의 제목 부분</label>
-        <div>
-            <input type="checkbox" id="answer01">
-            <label for="answer01">전체카테고리</label>
-            <input type="checkbox" id="answer02">
-            <label for="answer02">추천상품</label>
-            <input type="checkbox" id="answer03">
-            <label for="answer03">마이페이지</label>
-            <input type="checkbox" id="answer04">
-            <label for="answer04">장바구니</label>
-        </div>
-    </div>
 
-    <p id="영양">열량<span class="kcal">125kcal</span></p>
-    <p id="영양">탄수화물<span class="tan">25g</span></p>
-    <p id="영양">지방<span class="ji">2.5g</span></p>
-    <p id="영양">단백질<span class="dan">0.5g</span></p>
-    <p id="영양">나트륨<span class="na">65mg</span></p>
+<div class="buttons">
+  <button class="button" onclick="changeBorderColor(this)">Button 1</button>
+  <button class="button" onclick="changeBorderColor(this)">Button 2</button>
+  <button class="button" onclick="changeBorderColor(this)">Button 3</button>
+</div>
 
-    <div class="about">
-        <button id="item">상품후기</button>
-        <button id="item">관련상품</button>
-        <button id="item">상품문의</button> 
-    </div>
-    <hr id="sangpum">
-    
 </body>
-<footer class="footer">
-    <div class="Kategorie">
-        <p class="title_text" id="Details">문의</p>
-        <p class="text_container">서울특별시 호암로 546</p>
-        <p class="text_container">미림여자정보과학고등학교</p>
-        <p class="text_container">1층 커뮤니티케이션실</p> 
-    </div>
-
-    <div class="follow">
-        <div class="Kategorie">
-            <p class="title_text">팔로우</p>
-            <p class="text_container">Instagram</p>
-            <p class="text_container">Facebook</p>
-            <p class="text_container">Youtube</p> 
-            
-        </div>
-    </div>
-    <div class="Kategorie">
-        <p class="title_text">게시판</p>
-        <p class="text_container">EVENT</p>
-        <p class="text_container">공지</p>
-        <p class="text_container">유용한 정보</p> 
-    </div>
-</footer>
 </html>
